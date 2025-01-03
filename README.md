@@ -7,10 +7,10 @@ This document outlines the requirements for the ServiceSphere API, a service mar
 -   [x] Setup development environment.
 -   [x] Setup database.
 -   [x] Setup tests.
--   [ ] Setup pre-commit hooks.
-    -   [ ] Formatting.
-    -   [ ] Linting.
-    -   [ ] Tests.
+-   [x] Setup pre-commit hooks.
+    -   [x] Formatting.
+    -   [x] Linting.
+    -   [x] Tests.
 -  [ ] Setup CI/CD pipeline in GitHub Actions.
 
 # Pre-requisites
