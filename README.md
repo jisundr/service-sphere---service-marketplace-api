@@ -12,8 +12,7 @@ This document outlines the requirements for the ServiceSphere API, a service mar
     -   [x] Linting.
     -   [x] Tests.
 -   [x] Setup CI/CD pipeline in GitHub Actions.
--   [ ] Setup Swagger documentation. (Optional)
--   [ ] Setup Postman collection. (Optional)
+-   [x] Setup Postman collection. (Optional)
 
 # Pre-requisites
 

@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "3d7be1d6-45c6-410a-871b-6880dff0bb87",
+		"name": "API Endpoints",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14607142"
+	},
+	"item": [
+		{
+			"name": "Root",
+			"item": [
+				{
+					"name": "Get Info",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{BASE_URL}}",
+							"host": [
+								"{{BASE_URL}}"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get Info",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{BASE_URL}}",
+									"host": [
+										"{{BASE_URL}}"
+									]
+								}
+							},
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json",
+									"name": "Content-Type",
+									"description": "",
+									"type": "text"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"Laravel\": \"11.37.0\"\n}"
+						}
+					]
+				}
+			]
+		}
+	]
+}
