@@ -11,7 +11,8 @@ This document outlines the requirements for the ServiceSphere API, a service mar
     -   [x] Formatting.
     -   [x] Linting.
     -   [x] Tests.
--  [ ] Setup CI/CD pipeline in GitHub Actions.
+-   [x] Setup CI/CD pipeline in GitHub Actions.
+-   [ ] Setup Swagger documentation.
 
 # Pre-requisites
 
