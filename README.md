@@ -4,8 +4,9 @@ This document outlines the requirements for the ServiceSphere API, a service mar
 
 # TODO:
 
-[x] Setup development environment.
-[x] Setup database.
+- [x] Setup development environment.
+- [x] Setup database.
+- [x] Setup tests.
 
 
 # Pre-requisites
