@@ -13,6 +13,31 @@ This document outlines the requirements for the ServiceSphere API, a service mar
     -   [x] Tests.
 -   [x] Setup CI/CD pipeline in GitHub Actions.
 -   [x] Setup Postman collection. (Optional)
+-   [ ] Implement User Management.
+    -   [ ] Setup Models and Migrations.
+        -   [ ] User
+            -   [ ] Client User (sub-class)
+            -   [ ] Service Provider User (sub-class)
+            -   See: [Single Table Inheritance](https://laravel.com/docs/8.x/eloquent#single-table-inheritance)
+        -   [ ] Role Enum
+            -   See [Enums](https://laravel.com/docs/8.x/eloquent#enum-casting)
+        -   [ ] Profile
+        -   [ ] Reset Password
+    -   [ ] User Registration
+        -   [ ] `POST /api/register`
+    -   [ ] User Login
+        -   [ ] `POST /api/login`
+    -   [ ] Forgot Password
+        -   [ ] `POST /api/forgot-password`
+    -   [ ] Reset Password
+        -   [ ] `POST /api/reset-password`
+    -   [ ] User Logout
+        -   [ ] `POST /api/logout`
+    -   [ ] Profile Management
+        -   [ ] `GET /api/profile`
+        -   [ ] `PUT /api/profile`
+    -   [ ] Get Current User
+        -   [ ] `GET /api/me`
 
 # Pre-requisites
 
