@@ -58,4 +58,5 @@ This document outlines the requirements for the ServiceSphere API, a service mar
 
 # Development
 
--   Run `php artisan serve` to start the development server
+-   Run `php artisan serve` to start the development server.
+-   Run `php artisan serve --host 0.0.0.0` to start the development server on all interfaces.
