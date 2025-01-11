@@ -49,14 +49,14 @@ This document outlines the requirements for the ServiceSphere API, a service mar
 
 # Installation
 
--   Clone the repository
--   Run `cp .env.example.dev .env`
--   Run `docker-compose up -d`
--   Run `composer install`
--   Run `php artisan migrate`
--   Run `php artisan db:seed`
+1. Clone the repository
+2. Run `cp .env.example.dev .env`
+3. Run `docker-compose up -d`
+4. Run `composer install`
+5. Run `php artisan migrate`
+6. Run `php artisan db:seed`
 
 # Development
 
 -   Run `php artisan serve` to start the development server.
--   Run `php artisan serve --host 0.0.0.0` to start the development server on all interfaces.
+-   Run `php artisan serve --host 0.0.0.0` to start the development server on all interfaces. Use when your development server is running remotely.
